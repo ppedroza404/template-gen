@@ -1,1 +1,12 @@
+# Node.js files
+node_modules/
+
+# Visual Studio Code specific files
 .vscode/
+*.code-workspace
+
+# macOS specific files
+.DS_Store
+
+# Editor specific files
+*.swp
