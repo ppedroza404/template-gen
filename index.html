@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Generate MAC Address</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="top-left">
+        <img src="img/logo.png">
+    </div>
+
+    <div class="wrapper">
+        <div class="heading">
+            <h2>Welcome!</h2>
+            <p>Microtik Config Generator</p>
+        </div> 
+
+        <form method="post" action="https://script.google.com/macros/s/AKfycbyFj4Le6j2eCp9kwxhCkANvS_uJnRJFfhLikgKd3BlA9f4XSSpBMsEggpbAhdY6XBEp/exec" id="device-form">
+            <div class="input-group">
+                <input type="text" name="company" class="input-field" placeholder="Company" >
+            </div>
+      
+            <div class="input-group">
+                <input type="text" name="mac-address" class="input-field" placeholder="Mac address" >
+            </div>   
+      
+            <div class="input-group">
+                <button type="submit" value="Submit" id="submit">Generate<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          
+        </form>
+         
+      </div>
+    </div>
+
+    <footer>
+        Created by <a target="_black">Pablo</a>
+    </footer>
+
+    <script src="js/Google sheet.js"></script>
+</body>
+</html>
